@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayAgain - Emuladores</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #f8d210;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+        }
+        header {
+            background: #0f3460;
+            padding: 20px;
+            position: relative;
+        }
+        .header-background {
+            background: url('retro-gaming-header.jpg') no-repeat center center/cover;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 10px;
+            background: #e94560;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background: #0f3460;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+        .logo {
+            max-width: 250px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-background">
+            <img src="DALL·E 2025-02-07 10.54.53 - A retro-style logo for 'PlayAgain', a website about video game emulators for PC. The logo features a pixelated arcade joystick and a game cartridge, w.webp" alt="PlayAgain Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#tutoriais">Tutoriais</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <h2>Bem-vindo ao PlayAgain!</h2>
+        <p>Seu portal de emuladores para reviver os melhores jogos clássicos!</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 PlayAgain. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
